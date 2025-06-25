@@ -56,8 +56,6 @@ The directory structure is organized as follows:
     if HYPHEN_E_DOT in requirements:
         requirements.remove(HYPHEN_E_DOT)
     return requirements
-
-'''
     setup(
         name='diabetics_project',
         version='0.1.0',
