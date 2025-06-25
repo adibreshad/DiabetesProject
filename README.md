@@ -34,7 +34,34 @@ The directory structure is organized as follows:
     conda activate ./venv
     ```
 
-2.  **Install the required packages:**
+2.  **Install the project and its dependencies:**
     ```bash
-    pip install -r requirements.txt
+    pip install -e .
     ```
+    '''
+    from setuptools import find_packages, setup
+from typing import List
+
+
+HYPHEN_E_DOT='-e .'
+def get_requirements(file_path: str)-> List[str]:
+    '''this function will return the list of requirements'''
+    requirements=[]
+    with open(file_path) as file_obj:
+        requirements=file_obj.readlines()
+        requirements=[req.replace("\n","")for req in requirements]
+    if HYPHEN_E_DOT in requirements:
+        requirements.remove(HYPHEN_E_DOT)
+    return requirements
+
+setup(
+    name='diabetics_project',
+    version='0.1.0',
+    author='adibreshad',
+    author_email="adibahmadreshad@gmail.com",
+    packages=find_packages(),
+    install_requires=get_requirements('requirements.txt'),
+)
+
+    '''
+
