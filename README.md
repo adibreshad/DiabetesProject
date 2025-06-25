@@ -55,7 +55,8 @@ def get_requirements(file_path: str)-> List[str]:
     if HYPHEN_E_DOT in requirements:
         requirements.remove(HYPHEN_E_DOT)
     return requirements
-
+'''
+'''
 setup(
     name='diabetics_project',
     version='0.1.0',
@@ -64,6 +65,5 @@ setup(
     packages=find_packages(),
     install_requires=get_requirements('requirements.txt'),
 )
-
-    '''
+'''
 
