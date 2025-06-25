@@ -43,10 +43,11 @@ The directory structure is organized as follows:
 
 3. **The setup.py file:**
 
-'''from setuptools import find_packages, setup
-from typing import List
-HYPHEN_E_DOT='-e .'
-def get_requirements(file_path: str)-> List[str]:
+'''
+    from setuptools import find_packages, setup
+    from typing import List
+    HYPHEN_E_DOT='-e .'
+    def get_requirements(file_path: str)-> List[str]:
     
     requirements=[]
     with open(file_path) as file_obj:
@@ -57,13 +58,13 @@ def get_requirements(file_path: str)-> List[str]:
     return requirements
 
 '''
-setup(
-    name='diabetics_project',
-    version='0.1.0',
-    author='adibreshad',
-    author_email="adibahmadreshad@gmail.com",
-    packages=find_packages(),
-    install_requires=get_requirements('requirements.txt'),
-)
+    setup(
+        name='diabetics_project',
+        version='0.1.0',
+        author='adibreshad',
+        author_email="adibahmadreshad@gmail.com",
+        packages=find_packages(),
+        install_requires=get_requirements('requirements.txt'),
+        )
 '''
 
