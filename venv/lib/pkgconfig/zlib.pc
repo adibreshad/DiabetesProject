@@ -1,0 +1,13 @@
+prefix=/Users/reshad/Desktop/MLProject/diabetes/venv
+exec_prefix=/Users/reshad/Desktop/MLProject/diabetes/venv
+libdir=/Users/reshad/Desktop/MLProject/diabetes/venv/lib
+sharedlibdir=/Users/reshad/Desktop/MLProject/diabetes/venv/lib
+includedir=/Users/reshad/Desktop/MLProject/diabetes/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
