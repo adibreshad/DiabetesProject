@@ -21,8 +21,8 @@ ITCL_LIB_FILE=libitcl4.2.4.dylib
 
 # String to pass to linker to pick up the Itcl library from its
 # build directory.
-itcl_BUILD_LIB_SPEC='-L/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_99lesisxvl/croot/tk_1748849401842/work/tcl8.6.14/unix/pkgs/itcl4.2.4 -litcl4.2.4'
-ITCL_BUILD_LIB_SPEC='-L/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_99lesisxvl/croot/tk_1748849401842/work/tcl8.6.14/unix/pkgs/itcl4.2.4 -litcl4.2.4'
+itcl_BUILD_LIB_SPEC='-L/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_57xzmki7k8/croot/tk_1748849401630/work/tcl8.6.14/unix/pkgs/itcl4.2.4 -litcl4.2.4'
+ITCL_BUILD_LIB_SPEC='-L/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_57xzmki7k8/croot/tk_1748849401630/work/tcl8.6.14/unix/pkgs/itcl4.2.4 -litcl4.2.4'
 
 # String to pass to linker to pick up the Itcl library from its
 # installed directory.
@@ -35,8 +35,8 @@ ITCL_STUB_LIB_FILE=libitclstub4.2.4.a
 
 # String to pass to linker to pick up the Itcl stub library from its
 # build directory.
-itcl_BUILD_STUB_LIB_SPEC='-L/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_99lesisxvl/croot/tk_1748849401842/work/tcl8.6.14/unix/pkgs/itcl4.2.4 -litclstub4.2.4'
-ITCL_BUILD_STUB_LIB_SPEC='-L/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_99lesisxvl/croot/tk_1748849401842/work/tcl8.6.14/unix/pkgs/itcl4.2.4 -litclstub4.2.4'
+itcl_BUILD_STUB_LIB_SPEC='-L/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_57xzmki7k8/croot/tk_1748849401630/work/tcl8.6.14/unix/pkgs/itcl4.2.4 -litclstub4.2.4'
+ITCL_BUILD_STUB_LIB_SPEC='-L/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_57xzmki7k8/croot/tk_1748849401630/work/tcl8.6.14/unix/pkgs/itcl4.2.4 -litclstub4.2.4'
 
 # String to pass to linker to pick up the Itcl stub library from its
 # installed directory.
@@ -45,8 +45,8 @@ ITCL_STUB_LIB_SPEC='-L/Users/reshad/Desktop/MLProject/diabetes/venv/lib/itcl4.2.
 
 # String to pass to linker to pick up the Itcl stub library from its
 # build directory.
-itcl_BUILD_STUB_LIB_PATH='/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_99lesisxvl/croot/tk_1748849401842/work/tcl8.6.14/unix/pkgs/itcl4.2.4/libitclstub4.2.4.a'
-ITCL_BUILD_STUB_LIB_PATH='/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_99lesisxvl/croot/tk_1748849401842/work/tcl8.6.14/unix/pkgs/itcl4.2.4/libitclstub4.2.4.a'
+itcl_BUILD_STUB_LIB_PATH='/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_57xzmki7k8/croot/tk_1748849401630/work/tcl8.6.14/unix/pkgs/itcl4.2.4/libitclstub4.2.4.a'
+ITCL_BUILD_STUB_LIB_PATH='/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_57xzmki7k8/croot/tk_1748849401630/work/tcl8.6.14/unix/pkgs/itcl4.2.4/libitclstub4.2.4.a'
 
 # String to pass to linker to pick up the Itcl stub library from its
 # installed directory.
@@ -58,8 +58,8 @@ ITCL_STUB_LIB_PATH='/Users/reshad/Desktop/MLProject/diabetes/venv/lib/itcl4.2.4/
 # If [incr Tcl] was compiled in a different place than the directory
 # containing the source files, this points to the location of the sources,
 # not the location where [incr Tcl] was compiled.
-itcl_SRC_DIR='/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_99lesisxvl/croot/tk_1748849401842/work/tcl8.6.14/pkgs/itcl4.2.4'
-ITCL_SRC_DIR='/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_99lesisxvl/croot/tk_1748849401842/work/tcl8.6.14/pkgs/itcl4.2.4'
+itcl_SRC_DIR='/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_57xzmki7k8/croot/tk_1748849401630/work/tcl8.6.14/pkgs/itcl4.2.4'
+ITCL_SRC_DIR='/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_57xzmki7k8/croot/tk_1748849401630/work/tcl8.6.14/pkgs/itcl4.2.4'
 
 # String to pass to the compiler so that an extension can
 # find installed Itcl headers.

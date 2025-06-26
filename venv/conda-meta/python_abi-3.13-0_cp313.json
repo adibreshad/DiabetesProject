@@ -1,31 +1,31 @@
 {
   "build": "0_cp313",
   "build_number": 0,
-  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
   "constrains": [
     "python 3.13.* *_cp313"
   ],
   "depends": [],
-  "extracted_package_dir": "/Users/reshad/Desktop/COM6018/confirm/pkgs/python_abi-3.13-0_cp313",
+  "extracted_package_dir": "/Users/reshad/conda/pkgs/python_abi-3.13-0_cp313",
   "files": [],
   "fn": "python_abi-3.13-0_cp313.conda",
   "license": "BSD-3-Clause",
   "link": {
-    "source": "/Users/reshad/Desktop/COM6018/confirm/pkgs/python_abi-3.13-0_cp313",
+    "source": "/Users/reshad/conda/pkgs/python_abi-3.13-0_cp313",
     "type": 1
   },
-  "md5": "49b3428f07d7cbcd55ae7e0cbceab988",
+  "md5": "e50f50a23e8892f84ce3f61e121790b5",
   "name": "python_abi",
-  "package_tarball_full_path": "/Users/reshad/Desktop/COM6018/confirm/pkgs/python_abi-3.13-0_cp313.conda",
+  "package_tarball_full_path": "/Users/reshad/conda/pkgs/python_abi-3.13-0_cp313.conda",
   "paths_data": {
     "paths": [],
     "paths_version": 1
   },
   "requested_spec": "None",
-  "sha256": "c2f3a279902a7ffa5dea555fc218500477468b47c04f2db17a5a663c535cb383",
-  "size": 7143,
-  "subdir": "osx-arm64",
-  "timestamp": 1727769901000,
-  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/python_abi-3.13-0_cp313.conda",
+  "sha256": "4a78f1cfe4b6ad26ae151d5f7619c5f1fb504daea498b6706c01610853337110",
+  "size": 7131,
+  "subdir": "osx-64",
+  "timestamp": 1727769911000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/python_abi-3.13-0_cp313.conda",
   "version": "3.13"
 }

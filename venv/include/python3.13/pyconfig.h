@@ -21,7 +21,7 @@
 #define ALIGNOF_LONG 8
 
 /* The normal alignment of `max_align_t', in bytes. */
-#define ALIGNOF_MAX_ALIGN_T 8
+#define ALIGNOF_MAX_ALIGN_T 16
 
 /* The normal alignment of `size_t', in bytes. */
 #define ALIGNOF_SIZE_T 8
@@ -301,7 +301,7 @@
 /* #undef HAVE_DUP3 */
 
 /* Define if you have the '_dyld_shared_cache_contains_path' function. */
-#define HAVE_DYLD_SHARED_CACHE_CONTAINS_PATH 1
+/* #undef HAVE_DYLD_SHARED_CACHE_CONTAINS_PATH */
 
 /* Defined when any dynamic module loading is enabled. */
 #define HAVE_DYNAMIC_LOADING 1
@@ -442,11 +442,11 @@
 /* #undef HAVE_GCC_ASM_FOR_MC68881 */
 
 /* Define if we can use x64 gcc inline assembler */
-/* #undef HAVE_GCC_ASM_FOR_X64 */
+#define HAVE_GCC_ASM_FOR_X64 1
 
 /* Define if we can use gcc inline assembler to get and set x87 control word
    */
-/* #undef HAVE_GCC_ASM_FOR_X87 */
+#define HAVE_GCC_ASM_FOR_X87 1
 
 /* Define if your compiler provides __uint128_t */
 #define HAVE_GCC_UINT128_T 1
@@ -959,7 +959,7 @@
 #define HAVE_PREAD 1
 
 /* Define to 1 if you have the `preadv' function. */
-#define HAVE_PREADV 1
+/* #undef HAVE_PREADV */
 
 /* Define to 1 if you have the `preadv2' function. */
 /* #undef HAVE_PREADV2 */
@@ -1017,7 +1017,7 @@
 #define HAVE_PWRITE 1
 
 /* Define to 1 if you have the `pwritev' function. */
-#define HAVE_PWRITEV 1
+/* #undef HAVE_PWRITEV */
 
 /* Define to 1 if you have the `pwritev2' function. */
 /* #undef HAVE_PWRITEV2 */
@@ -1736,7 +1736,7 @@
 #define SIZEOF_LONG 8
 
 /* The size of `long double', as computed by sizeof. */
-#define SIZEOF_LONG_DOUBLE 8
+#define SIZEOF_LONG_DOUBLE 16
 
 /* The size of `long long', as computed by sizeof. */
 #define SIZEOF_LONG_LONG 8

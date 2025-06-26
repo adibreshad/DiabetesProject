@@ -19,8 +19,8 @@ tdbc_LIB_FILE=libtdbc1.1.7.dylib
 TDBC_LIB_FILE=libtdbc1.1.7.dylib
 
 # String to pass to the linker to pick up the TDBC library from its build dir
-tdbc_BUILD_LIB_SPEC="-L/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_99lesisxvl/croot/tk_1748849401842/work/tcl8.6.14/unix/pkgs/tdbc1.1.7 -ltdbc1.1.7"
-TDBC_BUILD_LIB_SPEC="-L/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_99lesisxvl/croot/tk_1748849401842/work/tcl8.6.14/unix/pkgs/tdbc1.1.7 -ltdbc1.1.7"
+tdbc_BUILD_LIB_SPEC="-L/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_57xzmki7k8/croot/tk_1748849401630/work/tcl8.6.14/unix/pkgs/tdbc1.1.7 -ltdbc1.1.7"
+TDBC_BUILD_LIB_SPEC="-L/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_57xzmki7k8/croot/tk_1748849401630/work/tcl8.6.14/unix/pkgs/tdbc1.1.7 -ltdbc1.1.7"
 
 # String to pass to the linker to pick up the TDBC library from its installed
 # dir.
@@ -33,8 +33,8 @@ TDBC_STUB_LIB_FILE="libtdbcstub1.1.7.a"
 
 # String to pass to the linker to pick up the TDBC stub library from its
 # build directory
-tdbc_BUILD_STUB_LIB_SPEC="-L/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_99lesisxvl/croot/tk_1748849401842/work/tcl8.6.14/unix/pkgs/tdbc1.1.7 -ltdbcstub1.1.7"
-TDBC_BUILD_STUB_LIB_SPEC="-L/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_99lesisxvl/croot/tk_1748849401842/work/tcl8.6.14/unix/pkgs/tdbc1.1.7 -ltdbcstub1.1.7"
+tdbc_BUILD_STUB_LIB_SPEC="-L/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_57xzmki7k8/croot/tk_1748849401630/work/tcl8.6.14/unix/pkgs/tdbc1.1.7 -ltdbcstub1.1.7"
+TDBC_BUILD_STUB_LIB_SPEC="-L/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_57xzmki7k8/croot/tk_1748849401630/work/tcl8.6.14/unix/pkgs/tdbc1.1.7 -ltdbcstub1.1.7"
 
 # String to pass to the linker to pick up the TDBC stub library from its
 # installed directory
@@ -42,8 +42,8 @@ tdbc_STUB_LIB_SPEC="-L/Users/reshad/Desktop/MLProject/diabetes/venv/lib/tdbc1.1.
 TDBC_STUB_LIB_SPEC="-L/Users/reshad/Desktop/MLProject/diabetes/venv/lib/tdbc1.1.7 -ltdbcstub1.1.7"
 
 # Path name of the TDBC stub library in its build directory
-tdbc_BUILD_STUB_LIB_PATH="/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_99lesisxvl/croot/tk_1748849401842/work/tcl8.6.14/unix/pkgs/tdbc1.1.7/libtdbcstub1.1.7.a"
-TDBC_BUILD_STUB_LIB_PATH="/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_99lesisxvl/croot/tk_1748849401842/work/tcl8.6.14/unix/pkgs/tdbc1.1.7/libtdbcstub1.1.7.a"
+tdbc_BUILD_STUB_LIB_PATH="/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_57xzmki7k8/croot/tk_1748849401630/work/tcl8.6.14/unix/pkgs/tdbc1.1.7/libtdbcstub1.1.7.a"
+TDBC_BUILD_STUB_LIB_PATH="/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_57xzmki7k8/croot/tk_1748849401630/work/tcl8.6.14/unix/pkgs/tdbc1.1.7/libtdbcstub1.1.7.a"
 
 # Path name of the TDBC stub library in its installed directory
 tdbc_STUB_LIB_PATH="/Users/reshad/Desktop/MLProject/diabetes/venv/lib/tdbc1.1.7/libtdbcstub1.1.7.a"
@@ -54,8 +54,8 @@ TDBC_STUB_LIB_PATH="/Users/reshad/Desktop/MLProject/diabetes/venv/lib/tdbc1.1.7/
 # was compiled in a directory other than the source directory, this still
 # points to the location of the sources, not the location where TDBC was
 # compiled.
-tdbc_SRC_DIR="/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_99lesisxvl/croot/tk_1748849401842/work/tcl8.6.14/pkgs/tdbc1.1.7"
-TDBC_SRC_DIR="/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_99lesisxvl/croot/tk_1748849401842/work/tcl8.6.14/pkgs/tdbc1.1.7"
+tdbc_SRC_DIR="/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_57xzmki7k8/croot/tk_1748849401630/work/tcl8.6.14/pkgs/tdbc1.1.7"
+TDBC_SRC_DIR="/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_57xzmki7k8/croot/tk_1748849401630/work/tcl8.6.14/pkgs/tdbc1.1.7"
 
 # String to pass to the compiler so that an extension can find installed TDBC
 # headers
@@ -64,16 +64,16 @@ TDBC_INCLUDE_SPEC="-I/Users/reshad/Desktop/MLProject/diabetes/venv/include"
 
 # String to pass to the compiler so that an extension can find TDBC headers
 # in the source directory
-tdbc_BUILD_INCLUDE_SPEC="-I/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_99lesisxvl/croot/tk_1748849401842/work/tcl8.6.14/pkgs/tdbc1.1.7/generic"
-TDBC_BUILD_INCLUDE_SPEC="-I/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_99lesisxvl/croot/tk_1748849401842/work/tcl8.6.14/pkgs/tdbc1.1.7/generic"
+tdbc_BUILD_INCLUDE_SPEC="-I/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_57xzmki7k8/croot/tk_1748849401630/work/tcl8.6.14/pkgs/tdbc1.1.7/generic"
+TDBC_BUILD_INCLUDE_SPEC="-I/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_57xzmki7k8/croot/tk_1748849401630/work/tcl8.6.14/pkgs/tdbc1.1.7/generic"
 
 # Path name where .tcl files in the tdbc package appear at run time.
 tdbc_LIBRARY_PATH="/Users/reshad/Desktop/MLProject/diabetes/venv/lib/tdbc1.1.7"
 TDBC_LIBRARY_PATH="/Users/reshad/Desktop/MLProject/diabetes/venv/lib/tdbc1.1.7"
 
 # Path name where .tcl files in the tdbc package appear at build time.
-tdbc_BUILD_LIBRARY_PATH="/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_99lesisxvl/croot/tk_1748849401842/work/tcl8.6.14/pkgs/tdbc1.1.7/library"
-TDBC_BUILD_LIBRARY_PATH="/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_99lesisxvl/croot/tk_1748849401842/work/tcl8.6.14/pkgs/tdbc1.1.7/library"
+tdbc_BUILD_LIBRARY_PATH="/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_57xzmki7k8/croot/tk_1748849401630/work/tcl8.6.14/pkgs/tdbc1.1.7/library"
+TDBC_BUILD_LIBRARY_PATH="/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_57xzmki7k8/croot/tk_1748849401630/work/tcl8.6.14/pkgs/tdbc1.1.7/library"
 
 # Additional flags that must be passed to the C compiler to use tdbc
 tdbc_CFLAGS=

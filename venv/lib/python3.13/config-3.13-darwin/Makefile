@@ -29,16 +29,16 @@ MODLIBS=           $(LOCALMODLIBS) $(BASEMODLIBS)
 
 # === Variables set by configure
 VERSION=	3.13
-srcdir=		/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_53cckz4g20/croot/python-split_1749744877097/work
-VPATH=		/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_53cckz4g20/croot/python-split_1749744877097/work
-abs_srcdir=	/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_53cckz4g20/croot/python-split_1749744877097/work
-abs_builddir=	/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_53cckz4g20/croot/python-split_1749744877097/work/build-static
+srcdir=		/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a1lmlez008/croot/python-split_1749743945183/work
+VPATH=		/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a1lmlez008/croot/python-split_1749743945183/work
+abs_srcdir=	/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a1lmlez008/croot/python-split_1749743945183/work
+abs_builddir=	/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a1lmlez008/croot/python-split_1749743945183/work/build-static
 
 
-CC=		arm64-apple-darwin20.0.0-clang
-CXX=		arm64-apple-darwin20.0.0-clang++
+CC=		x86_64-apple-darwin13.4.0-clang
+CXX=		x86_64-apple-darwin13.4.0-clang++
 LINKCC=		$(PURIFY) $(CC)
-AR=		/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_53cckz4g20/croot/python-split_1749744877097/_build_env/bin/arm64-apple-darwin20.0.0-llvm-ar
+AR=		/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a1lmlez008/croot/python-split_1749743945183/_build_env/bin/x86_64-apple-darwin13.4.0-llvm-ar
 SOABI=		cpython-313-darwin
 ABIFLAGS=	
 ABI_THREAD=	
@@ -49,7 +49,7 @@ GITTAG=
 GITBRANCH=	
 PGO_PROF_GEN_FLAG=-fprofile-instr-generate
 PGO_PROF_USE_FLAG=-fprofile-instr-use="$(shell pwd)/code.profclangd"
-LLVM_PROF_MERGER= /var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_53cckz4g20/croot/python-split_1749744877097/_build_env/bin/llvm-profdata merge -output="$(shell pwd)/code.profclangd" "$(shell pwd)"/*.profclangr 
+LLVM_PROF_MERGER= /var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a1lmlez008/croot/python-split_1749743945183/_build_env/bin/llvm-profdata merge -output="$(shell pwd)/code.profclangd" "$(shell pwd)"/*.profclangr 
 LLVM_PROF_FILE=LLVM_PROFILE_FILE="$(shell pwd)/code-%p.profclangr"
 LLVM_PROF_ERR=no
 DTRACE=         
@@ -76,7 +76,7 @@ INSTALL_DATA=	${INSTALL} -m 644
 # rather than figuring out exactly which, we always give them executable mode.
 INSTALL_SHARED= ${INSTALL} -m 755
 
-MKDIR_P=	/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_53cckz4g20/croot/python-split_1749744877097/work/install-sh -c -d
+MKDIR_P=	/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a1lmlez008/croot/python-split_1749743945183/work/install-sh -c -d
 
 MAKESETUP=      $(srcdir)/Modules/makesetup
 
@@ -84,7 +84,7 @@ MAKESETUP=      $(srcdir)/Modules/makesetup
 OPT=		-DNDEBUG -O2 -Wall
 BASECFLAGS=	 -fno-strict-overflow -Wsign-compare -Wunreachable-code
 BASECPPFLAGS=	-IObjects -IInclude -IPython
-CONFIGURE_CFLAGS=	-isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/reshad/Desktop/MLProject/diabetes/venv/include -fdebug-prefix-map=/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_53cckz4g20/croot/python-split_1749744877097/work=/usr/local/src/conda/python-3.13.5 -fdebug-prefix-map=/Users/reshad/Desktop/MLProject/diabetes/venv=/usr/local/src/conda-prefix -arch arm64 
+CONFIGURE_CFLAGS=	-isysroot /opt/MacOSX10.15.sdk -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/reshad/Desktop/MLProject/diabetes/venv/include -fdebug-prefix-map=/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a1lmlez008/croot/python-split_1749743945183/work=/usr/local/src/conda/python-3.13.5 -fdebug-prefix-map=/Users/reshad/Desktop/MLProject/diabetes/venv=/usr/local/src/conda-prefix 
 # CFLAGS_NODIST is used for building the interpreter and stdlib C extensions.
 # Use it when a compiler flag should _not_ be part of the distutils CFLAGS
 # once Python is installed (Issue #21121).
@@ -96,8 +96,8 @@ CONFIGURE_LDFLAGS_NODIST= =full -Wl,-export_dynamic -Wl,-object_path_lto,"$@".lt
 # LDFLAGS_NOLTO is an extra flag to disable lto. It is used to speed up building
 # of _bootstrap_python and _freeze_module tools, which don't need LTO.
 CONFIGURE_LDFLAGS_NOLTO==thin
-CONFIGURE_CPPFLAGS=	-isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -D_FORTIFY_SOURCE=2 -isystem /Users/reshad/Desktop/MLProject/diabetes/venv/include -mmacosx-version-min=11.1 -I/Users/reshad/Desktop/MLProject/diabetes/venv/include
-CONFIGURE_LDFLAGS=	-isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/reshad/Desktop/MLProject/diabetes/venv/lib -L/Users/reshad/Desktop/MLProject/diabetes/venv/lib
+CONFIGURE_CPPFLAGS=	-isysroot /opt/MacOSX10.15.sdk -D_FORTIFY_SOURCE=2 -isystem /Users/reshad/Desktop/MLProject/diabetes/venv/include -mmacosx-version-min=10.15 -I/Users/reshad/Desktop/MLProject/diabetes/venv/include
+CONFIGURE_LDFLAGS=	-isysroot /opt/MacOSX10.15.sdk -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/reshad/Desktop/MLProject/diabetes/venv/lib -L/Users/reshad/Desktop/MLProject/diabetes/venv/lib
 # Avoid assigning CFLAGS, LDFLAGS, etc. so users can use them on the
 # command line to append to these values without stomping the pre-set
 # values.
@@ -193,7 +193,7 @@ RESSRCDIR=
 # macOS deployment target selected during configure, to be checked
 # by distutils. The export statement is needed to ensure that the
 # deployment target is active during build.
-MACOSX_DEPLOYMENT_TARGET=11.1
+MACOSX_DEPLOYMENT_TARGET=10.15
 export MACOSX_DEPLOYMENT_TARGET
 
 # iOS Deployment target selected during configure. Unlike macOS, the iOS
@@ -383,7 +383,7 @@ EXEMODE=	755
 FILEMODE=	644
 
 # configure script arguments
-CONFIG_ARGS=	 '--prefix=/Users/reshad/Desktop/MLProject/diabetes/venv' '--build=arm64-apple-darwin20.0.0' '--host=arm64-apple-darwin20.0.0' '--enable-ipv6' '--with-ensurepip=no' '--with-tzpath=/Users/reshad/Desktop/MLProject/diabetes/venv/share/zoneinfo' '--with-computed-gotos' '--with-system-expat' '--enable-loadable-sqlite-extensions' '--with-tcltk-includes=-I/Users/reshad/Desktop/MLProject/diabetes/venv/include' '--with-tcltk-libs=-L/Users/reshad/Desktop/MLProject/diabetes/venv/lib -ltcl8.6 -ltk8.6' '--with-platlibdir=lib' '--with-system-libmpdec=yes' '--with-lto=full' '--enable-optimizations' '-oldincludedir=/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_53cckz4g20/croot/python-split_1749744877097/_build_env/arm64-apple-darwin20.0.0/sysroot/usr/include' '--disable-shared' 'PROFILE_TASK=-m test --pgo' 'build_alias=arm64-apple-darwin20.0.0' 'host_alias=arm64-apple-darwin20.0.0' 'PKG_CONFIG_PATH=/Users/reshad/Desktop/MLProject/diabetes/venv/lib/pkgconfig' 'MACHDEP=darwin' 'CC=arm64-apple-darwin20.0.0-clang' 'CFLAGS=-isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/reshad/Desktop/MLProject/diabetes/venv/include -fdebug-prefix-map=/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_53cckz4g20/croot/python-split_1749744877097/work=/usr/local/src/conda/python-3.13.5 -fdebug-prefix-map=/Users/reshad/Desktop/MLProject/diabetes/venv=/usr/local/src/conda-prefix -arch arm64 ' 'LDFLAGS=-isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/reshad/Desktop/MLProject/diabetes/venv/lib -L/Users/reshad/Desktop/MLProject/diabetes/venv/lib' 'CPPFLAGS=-isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -D_FORTIFY_SOURCE=2 -isystem /Users/reshad/Desktop/MLProject/diabetes/venv/include -mmacosx-version-min=11.1 -I/Users/reshad/Desktop/MLProject/diabetes/venv/include'
+CONFIG_ARGS=	 '--prefix=/Users/reshad/Desktop/MLProject/diabetes/venv' '--build=x86_64-apple-darwin13.4.0' '--host=x86_64-apple-darwin13.4.0' '--enable-ipv6' '--with-ensurepip=no' '--with-tzpath=/Users/reshad/Desktop/MLProject/diabetes/venv/share/zoneinfo' '--with-computed-gotos' '--with-system-expat' '--enable-loadable-sqlite-extensions' '--with-tcltk-includes=-I/Users/reshad/Desktop/MLProject/diabetes/venv/include' '--with-tcltk-libs=-L/Users/reshad/Desktop/MLProject/diabetes/venv/lib -ltcl8.6 -ltk8.6' '--with-platlibdir=lib' '--with-system-libmpdec=yes' '--with-lto=full' '--enable-optimizations' '-oldincludedir=/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a1lmlez008/croot/python-split_1749743945183/_build_env/x86_64-apple-darwin13.4.0/sysroot/usr/include' '--disable-shared' 'PROFILE_TASK=-m test --pgo' 'build_alias=x86_64-apple-darwin13.4.0' 'host_alias=x86_64-apple-darwin13.4.0' 'PKG_CONFIG_PATH=/Users/reshad/Desktop/MLProject/diabetes/venv/lib/pkgconfig' 'MACHDEP=darwin' 'CC=x86_64-apple-darwin13.4.0-clang' 'CFLAGS=-isysroot /opt/MacOSX10.15.sdk -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/reshad/Desktop/MLProject/diabetes/venv/include -fdebug-prefix-map=/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a1lmlez008/croot/python-split_1749743945183/work=/usr/local/src/conda/python-3.13.5 -fdebug-prefix-map=/Users/reshad/Desktop/MLProject/diabetes/venv=/usr/local/src/conda-prefix ' 'LDFLAGS=-isysroot /opt/MacOSX10.15.sdk -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/reshad/Desktop/MLProject/diabetes/venv/lib -L/Users/reshad/Desktop/MLProject/diabetes/venv/lib' 'CPPFLAGS=-isysroot /opt/MacOSX10.15.sdk -D_FORTIFY_SOURCE=2 -isystem /Users/reshad/Desktop/MLProject/diabetes/venv/include -mmacosx-version-min=10.15 -I/Users/reshad/Desktop/MLProject/diabetes/venv/include'
 
 
 # Subdirectories with code
@@ -449,9 +449,9 @@ FREEZE_MODULE_BOOTSTRAP_DEPS=Programs/_freeze_module
 FREEZE_MODULE=$(PYTHON_FOR_FREEZE) $(srcdir)/Programs/_freeze_module.py
 FREEZE_MODULE_DEPS=_bootstrap_python $(srcdir)/Programs/_freeze_module.py
 
-_PYTHON_HOST_PLATFORM=darwin-arm64
-BUILD_GNU_TYPE=	aarch64-apple-darwin20.0.0
-HOST_GNU_TYPE=	aarch64-apple-darwin20.0.0
+_PYTHON_HOST_PLATFORM=darwin-x86_64
+BUILD_GNU_TYPE=	x86_64-apple-darwin13.4.0
+HOST_GNU_TYPE=	x86_64-apple-darwin13.4.0
 
 # The task to run while instrumented when building the profile-opt target.
 # To speed up profile generation, we don't run the full unit test suite
